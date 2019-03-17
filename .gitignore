@@ -59,6 +59,7 @@ docs/_build/
 target/
 
 #Ipython Notebook
+.idea
 .ipynb_checkpoints
 .idea/encodings.xml
 .idea/misc.xml
