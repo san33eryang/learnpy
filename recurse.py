@@ -1,19 +1,29 @@
 # -*- coding: utf-8 -*
 
-# 递推函数
-
+# Fibonacci 斐波拉契数列
+# 方法1 递归函数
 def f(n):
-    if n <= 1:
+    if n <=1 :
         return n
     else:
         return f(n - 1) + f(n - 2)
 
 
 li = []
-for i in range(0, 3):
+for i in range(1, 5):
     li.append(f(i))
 print(li)
 
+#方法2
+def fib(length):
+    n,a,b=0,0,1
+    while n<length:
+        print(b)
+        a,b=b,a+b
+        n=n+1
+    return 'Done'
+
+fib(5)
 
 # n！阶乘
 

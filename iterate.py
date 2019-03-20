@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*
+
+
 d = {'a': 1, 'b': 2, 'c': 3}
-
-
 def test1():
     for key in d:
         print(key)
@@ -46,7 +46,7 @@ def test4():
 
 # testing
 def test5():
-    mytest = findMinAndMax
+    mytest = findMinAndMax3
     if mytest([]) != (None, None):
         print('1测试失败!')
     elif mytest([7]) != (7, 7):
@@ -74,9 +74,9 @@ def findMinAndMax2(L=[]):
 
 def findMinAndMax3(L=[]):
     mi, ma = None, None
-    print('1:'+str(L))
+    #print('1:'+str(L))
     for i in L:
-        print('2:'+str(L))
+        #print('2:'+str(L))
         if mi is None or i < mi:
             mi = i
         if ma is None or i > ma:

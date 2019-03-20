@@ -7,7 +7,7 @@ def rank (list):
             if list[j] > list[j+1]:
                 list[j],list[j+1]=list[j+1],list[j]
                 # print list[j],list[j+1]
-    print list
+    print (list)
 
 
 rank ([7,8,1])
